@@ -22,7 +22,7 @@ function App({ loadEmployees }) {
   loadEmployees();
 
   return (
-    <Authenticator loginMechanisms={['username']}>
+    <Authenticator   loginMechanisms={['username']}>
       {({ signOut, user }) => (
         <Router>
           <Navbar bg="dark" variant="dark">
