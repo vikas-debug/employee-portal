@@ -25,7 +25,4 @@ const awsmobile = {
         "EMAIL"
     ]
 };
-
-
-
 export default awsmobile;
